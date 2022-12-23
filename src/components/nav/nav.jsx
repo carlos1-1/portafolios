@@ -8,7 +8,8 @@ import {
 import { SiAboutdotme } from "react-icons/si";
 import { DiJavascript } from "react-icons/di";
 import { FaProjectDiagram } from "react-icons/fa";
-export default function navbar() {
+
+export default function Nav() {
   return (
     <div className="sidebar">
       <ul className="nav-list">
