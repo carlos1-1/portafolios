@@ -1,0 +1,64 @@
+.tittle-btn {
+  animation: fadein 2.5s;
+}
+.tittle {
+  animation: fadein 2s;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.sp-circle-link {
+  position: absolute;
+  left: 50%;
+  bottom: 100px;
+  margin-left: -50px;
+  text-align: center;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  background: #2817ac;
+  color: #3f1616;
+  font-size: 25px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+.sp-circle-link:hover {
+  background: #28207e;
+  color: rgb(17, 9, 95);
+}
+
+.text {
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  display: block;
+  border: 4px double rgba(255, 255, 255, 0.25);
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+
+  span {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+    background: url(https://img.freepik.com/vector-gratis/fondo-galaxia-acuarela-pintada-mano_52683-63443.jpg?w=2000)
+      repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

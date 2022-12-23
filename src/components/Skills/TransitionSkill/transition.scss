@@ -1,0 +1,47 @@
+@keyframes move {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+.meteorite {
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  animation: move 1.3s linear forwards;
+}
+
+.meteorite-1 {
+  top: 30%;
+}
+
+.meteorite-2 {
+  top: 50%;
+}
+
+.meteorite-3 {
+  top: 70%;
+}
+.meteorite {
+  width: 100px;
+  height: 80px;
+  background: #ea7f22;
+  border-radius: 65px / 65px;
+  box-shadow: 26px -32px 0 -32px #ea7f22, 50px -32px 0 -32px #ea7f22,
+    74px -32px 0 -32px #ea7f22, 98px -32px 0 -32px #ea7f22,
+    50px -15px 0 -37px #ea7f22, 73px -15px 0 -37px #ea7f22,
+    96px -15px 0 -37px #ea7f22, 110px -15px 0 -37px #ea7f22,
+    50px 5px 0 -35px #ea7f22, 73px 5px 0 -35px #ea7f22, 97px 5px 0 -35px #ea7f22,
+    97px 5px 0 -35px #ea7f22, 56px 20px 0 -38px #ea7f22,
+    75px 20px 0 -38px #ea7f22, 96px 20px 0 -38px #ea7f22,
+    110px 20px 0 -38px #ea7f22, 131px 20px 0 -38px #ea7f22,
+    26px 35px 0 -35px #ea7f22, 50px 35px 0 -35px #ea7f22,
+    73px 35px 0 -35px #ea7f22, 97px 35px 0 -35px #ea7f22,
+    97px 35px 0 -35px #ea7f22, 120px 35px 0 -35px #ea7f22;
+}

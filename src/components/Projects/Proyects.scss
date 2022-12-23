@@ -1,0 +1,90 @@
+#project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0px;
+  animation: moveProjects 1s;
+}
+@keyframes moveProjects {
+  0% {
+    margin: -250px 0px;
+  }
+
+  100% {
+    margin: 50px 0px;
+  }
+}
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+.project-box {
+  width: 330px;
+  padding: 15px;
+  cursor: pointer;
+  margin: 20px;
+  img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  #a:hover {
+    transform: translateY(-10px);
+  }
+}
+
+.mi-componente {
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.btn-flot {
+  background-color: blue;
+  color: white;
+  padding: 12px;
+  border: solid 2px black;
+  border-radius: 10%;
+  position: fixed;
+  cursor: pointer;
+  width: 3rem;
+  height: 2rem;
+  margin-right: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    background-color: darken(blue, 10%);
+  }
+}
+.btn-flot-view {
+  background-color: blue;
+  color: white;
+  padding: 12px;
+  border: solid 2px black;
+  border-radius: 10%;
+  position: relative;
+  cursor: pointer;
+  width: 3rem;
+  height: 2rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  &:hover {
+    background-color: darken(blue, 10%);
+  }
+}
