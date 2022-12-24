@@ -6,9 +6,8 @@ export default function Welcome() {
       <div className="tittle-btn">
         <a
           className="sp-circle-link"
-          href="https://drive.google.com/file/d/187oueUj1dBJYvbY65MtySirPH-QRuZzi/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="../../../public/FullStack.pdf"
+          download="FullStack.pdf"
         >
           CV
         </a>
