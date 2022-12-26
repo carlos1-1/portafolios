@@ -1,16 +1,14 @@
 import "../Welcome/welcome.scss";
 
-const pdf = "../../../public/FullStack.pdf";
 export default function Welcome() {
   return (
     <div className="sp-container">
       <div className="tittle-btn">
         <a
           className="sp-circle-link"
-          href={pdf}
+          href="https://drive.google.com/file/d/187oueUj1dBJYvbY65MtySirPH-QRuZzi/view?usp=sharing"
           target="_blank"
-          rel="noopener noreferrer"
-          download="FullStack.pdf"
+          rel="noreferrer"
         >
           CV
         </a>
