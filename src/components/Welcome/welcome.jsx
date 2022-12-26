@@ -1,12 +1,15 @@
 import "../Welcome/welcome.scss";
 
+const pdf = "../../../public/FullStack.pdf";
 export default function Welcome() {
   return (
     <div className="sp-container">
       <div className="tittle-btn">
         <a
           className="sp-circle-link"
-          href="../../../public/FullStack.pdf"
+          href={pdf}
+          target="_blank"
+          rel="noopener noreferrer"
           download="FullStack.pdf"
         >
           CV
