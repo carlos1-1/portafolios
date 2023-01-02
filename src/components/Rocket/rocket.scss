@@ -285,10 +285,6 @@ $darkred: #a75248;
 
 @media (max-width: 767px) {
   .rocket {
-    position: fixed;
-    bottom: -33vw;
-    width: 80px;
-    left: calc(60% - 60px);
-    animation: moveDownMobile 1s linear;
+    display: none;
   }
 }
