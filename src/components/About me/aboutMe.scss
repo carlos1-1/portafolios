@@ -74,3 +74,12 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media (max-width: 767px) {
+  .description {
+    width: 80vw;
+  }
+  .about-me {
+    top: 5%;
+    left: 5%;
+  }
+}

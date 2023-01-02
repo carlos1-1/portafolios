@@ -15,6 +15,7 @@
     opacity: 1;
   }
 }
+
 .sp-circle-link {
   position: absolute;
   left: 50%;
@@ -60,5 +61,11 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+}
+@media (max-width: 767px) {
+  .text {
+    width: 20em;
+    margin: 0 0 0 -10em;
   }
 }
