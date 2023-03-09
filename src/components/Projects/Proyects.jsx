@@ -99,11 +99,19 @@ export default function Proyects() {
               </h5>
               <a
                 className="btn-flot-view"
-                href="https://www.foodexpress.vercel.app/"
+                href="https://github.com/carlos1-1/FoodExpressPF-client"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Ver
+                Frontend
+              </a>
+              <a
+                className="btn-flot-view"
+                href="https://github.com/carlos1-1/FoodExpressPF-back"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Backend
               </a>
             </div>
           )}
