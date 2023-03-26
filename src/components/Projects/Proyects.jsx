@@ -157,6 +157,47 @@ export default function Proyects() {
             </div>
           )}
         </div>
+        <div className="project-box">
+          <img
+            id="a"
+            src="https://res.cloudinary.com/dzisahecp/image/upload/v1679796010/Captura_desde_2023-03-25_22-50-14_zjcrjs.png"
+            alt="Dogs"
+            onClick={() => Cuadro(1)}
+          />
+          <h1>MongoDB Notes</h1>
+          {mostrarCuadroFlotante1 && (
+            <div className="mi-componente">
+              <button className="btn-flot" onClick={() => Cuadro("no")}>
+                X
+              </button>
+              <img
+                src="https://res.cloudinary.com/dzisahecp/image/upload/v1679796010/Captura_desde_2023-03-25_22-50-14_zjcrjs.png"
+                alt="Dogs"
+              />
+              <p>
+                Single-page con login, capaz de almacenar, crear y editar notas
+                a modo de recordatorios. Fue creada a fin de demostrar mi
+                aprendizaje sobre MongoDB y avances respecto a Sass. Posee un
+                diseño simple o minimalista con colores claros y busca ser lo
+                más intuitiva posible para el usuario, además de poseer un
+                diseño responsive capaz de visualizarse en dispositivos móviles
+                sin que resulte incómodo a la vista."
+              </p>
+              <h5>
+                Tecnologias:· JavaScript · React.js · Redux.js · Node.js ·
+                Express.js · HTML · Sass · MongoDB ·Auth0
+              </h5>
+              <a
+                className="btn-flot-view"
+                href="https://mongo-db-notes-front.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ver
+              </a>
+            </div>
+          )}
+        </div>
       </div>
     </section>
   );

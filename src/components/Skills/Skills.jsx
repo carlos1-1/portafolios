@@ -127,7 +127,18 @@ export default function Skills() {
               />
             </div>
             <h3>SASS</h3>
-            <h5>En aprendizaje</h5>
+          </div>
+        </div>
+        <div className="skill-box">
+          <div className="skill-title">
+            <div className="img">
+              <img
+                alt="Skill"
+                src="https://www.tutorialsteacher.com/Content/images/home/mongodb.svg"
+                className="skill-icon"
+              />
+            </div>
+            <h3>MongoDb</h3>
           </div>
         </div>
       </div>
